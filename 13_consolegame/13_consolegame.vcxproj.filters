@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00_EntryPoint">
+      <UniqueIdentifier>{6ddcba8a-bc46-400c-a20c-1b7189a6c0e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_Game">
+      <UniqueIdentifier>{8c132f9f-57d6-405f-adb1-758736944e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_Base">
+      <UniqueIdentifier>{59214dd3-8e11-4ce4-8b2f-ec267973d5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_Manager">
+      <UniqueIdentifier>{d7a1ef5a-b1dd-40ae-9193-1ae15b9e7dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_Manager\GameManager">
+      <UniqueIdentifier>{4946022b-06fe-4308-be1e-e97fe5ea6d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_Manager\SceneManager">
+      <UniqueIdentifier>{597dd008-fc03-4429-850d-db0a9ab980e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_Manager\WndManager">
+      <UniqueIdentifier>{8671be49-0bfc-4f39-b507-7bb4b40e4bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_Base\Object">
+      <UniqueIdentifier>{25ff7ce6-d048-40b4-bce9-796f42986bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_Base\Scene">
+      <UniqueIdentifier>{803d7fc0-f069-4680-a333-793cbf1170b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_Game\Object">
+      <UniqueIdentifier>{52bc6d32-9468-4a51-8963-957f3be66b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_Game\Scene">
+      <UniqueIdentifier>{25022663-b671-47f2-9a7f-bf647a37fea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_Game\Scene\MainScene">
+      <UniqueIdentifier>{2ec79412-4d27-4cda-810d-7b10504a730e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>소스 파일\00_EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\01_Manager\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\01_Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WndManager.cpp">
+      <Filter>소스 파일\01_Manager\WndManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\02_Base\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>소스 파일\03_Game\Scene\MainScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="defines.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorDefine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>소스 파일\01_Manager\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\01_Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WndManager.h">
+      <Filter>소스 파일\01_Manager\WndManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\02_Base\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>소스 파일\03_Game\Scene\MainScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
